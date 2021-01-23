@@ -1,6 +1,6 @@
 import seaborn as sns
 
-bg_color = '0.15'
+bg_color = '0.10'
 sns.set(font='Segoe UI',
         rc={'figure.figsize': (14,6),
             'figure.dpi': 120,
@@ -17,15 +17,19 @@ sns.set(font='Segoe UI',
             'axes.spines.right': False,
             'axes.spines.top': False,
             'axes.spines.left': False,
+            'axes.spines.bottom': False,
             'axes.edgecolor': 'dimgrey',
             'axes.facecolor': bg_color,
             'axes.labelcolor': 'white',
             'axes.grid.axis': 'y',
             'grid.color': 'dimgrey',
+            'grid.linestyle': '--',
+            'grid.linewidth': 0.75,
             'legend.facecolor': bg_color,
             'legend.edgecolor': 'none',
-            'lines.linewidth': 2,
+            'lines.linewidth': 1,
             'lines.solid_capstyle': 'round',
+            'lines.dashed_pattern': (7, 5),
             'patch.edgecolor': 'w',
             'patch.force_edgecolor': True,
             'text.color': 'white',
